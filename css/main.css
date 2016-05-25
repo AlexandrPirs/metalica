@@ -140,6 +140,7 @@ header .header__left .navbar-left ul li a:hover {
 header .header__right {
 	position: relative;
 	height: 860px;
+	padding-left: 16%;
 }
 /* ------------------ HOVER header__right*/
 header .header__right:hover .navbar-right {
@@ -148,22 +149,27 @@ header .header__right:hover .navbar-right {
 header .header__right .logo {
 	position: relative;
 	margin-top: 160px;
-	margin-left: 16.66666667%;
 	text-align: center;
 }
 header .header__right .corps-pick {
 	position: relative;
 	text-align: center;
 	margin-top: 80px;
-	margin-left: 16.66666667%;
 	line-height: 16px;
 	font-size: 16px;
 	color: #9c9d9d;
 }
+header .header__right .corps-pick .mouse1 {
+	display: block;
+	margin: 0 auto;
+}
+header .header__right .corps-pick .mouse2 {
+	display: none;
+	margin: 0 auto;
+}
 header .header__right .navbar-right {
 	position: relative;
 	margin-top: 140px;
-	margin-left: 16.66666667%;
 	opacity: 0;
 	-webkit-transition: all .55s;
 	-o-transition: all .35s;
