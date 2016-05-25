@@ -34,41 +34,71 @@
 
 	<!-- Здесь пишем код -->
 	<div class="wrapper">
-		<div class="container">
-			<div class="row">
-				<header>
-					<div class="container">
-						<div class="row">
-							<div class="header__left col-md-6">1</div>
-
-							<div class="header__right col-md-4 col-md-offset-2">
-								<div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
-
-								<div class="corps-pick">
-									<img src="img/mouse.png" alt=""><br>
-									<span>выберите<br>корпус</span>
-								</div>
-
-								<nav class="navbar-right">
-									<h2>Торговый центр</h2>
-									<ul>
-										<li><a href="#">Арендаторам</a></li>
-										<li><a href="#">Гостям</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="header__left col-md-6">
+						<nav class="navbar-left">
+							<h2>Торговый центр</h2>
+							<ul>
+								<li><a href="#">Арендаторам</a></li>
+								<li><a href="#">Гостям</a></li>
+							</ul>
+						</nav>
 					</div>
-				</header>
-			</div>
-		</div>
-	</div>
-	
-	<div class="hidden"></div>
 
-	<div class="loader">
-		<div class="loader_inner"></div>
+					<div class="header__right col-md-6">
+						<div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+
+						<div class="corps-pick">
+							<img src="img/mouse.png" alt=""><br>
+							<span>выберите<br>корпус</span>
+						</div>
+
+						<nav class="navbar-right">
+							<h2>Торговый центр</h2>
+							<ul>
+								<li><a href="#">Арендаторам</a></li>
+								<li><a href="#">Гостям</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
 	</div>
+
+	<footer>
+		<div class="container">
+			<div class="col-md-3 footer__col-item">
+				<p>по вопросам аренды</p>
+				<a href="+7 913 395-74-87">+7 913 395-74-87</a>
+			</div>
+			<div class="col-md-3 footer__col-item">
+				<p>администрация</p>
+				<a href="+7 (383) 362-22-62">+7 (383) 362-22-62</a>
+			</div>
+			<div class="col-md-3 footer__col-item">
+				<p>почта</p>
+				<a href="Rang-ooo@yandex.ru">Rang-ooo@yandex.ru</a>
+			</div>
+			<div class="col-md-3 footer__col-item">
+				<p>адрес</p>
+				<a href="">г. Новосибирск,
+					ул. Гусинобродское шоссе, 35</a>
+				</div>
+			</div>
+		</footer>
+
+		<section class="map">
+			<script type="text/javascript" style="width: 100%; height: 420px;"charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=D5eeDkBZu0cirLNoJY1b6ANxqSnHJ8mD&width=100%&height=520&lang=ru_UA&sourceType=constructor&scroll=true"></script>
+		</section>
+		
+		<div class="hidden"></div>
+
+		<div class="loader">
+			<div class="loader_inner"></div>
+		</div>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
