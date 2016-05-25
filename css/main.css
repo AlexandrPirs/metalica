@@ -151,6 +151,12 @@ header .header__right .logo {
 	margin-top: 160px;
 	text-align: center;
 }
+header .header__right .logo img {
+	max-width: 315px;
+	min-width: 255px;
+	width: 100%;
+	max-height: 185px;
+}
 header .header__right .corps-pick {
 	position: relative;
 	text-align: center;
