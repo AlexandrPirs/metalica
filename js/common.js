@@ -1,5 +1,20 @@
 $(function() {
 
+	//ready_to_tabs active javascript
+	$('.wrapper-vtr .tabs .tabs__controls-item a').on('click', function(e){
+		e.preventDefault();
+
+		var item = $(this).closest('.wrapper-vtr .tabs .tabs__controls-item'),
+		contentItem = $('.wrapper-vtr .tabs .tabs__list .tabs__item'),
+		itemPosition = item.index();
+
+		contentItem.eq(itemPosition)
+		.add(item)
+		.addClass('active')
+		.siblings()
+		.removeClass('active');
+	});
+
 	var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
 		paginationClickable: true,
