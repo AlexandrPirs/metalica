@@ -556,7 +556,7 @@ header .wrapper_header .header-right .header_navbar-right ul li a:hover {
 	content: counter(list); 
 }
 .swiper-pagination { 
-	counter-reset: list; 
+	counter-reset: list 2; 
 }
 
 
