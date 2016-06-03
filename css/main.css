@@ -667,6 +667,7 @@ header .wrapper_header .header-right .header_navbar-right ul li a:hover {
 .wrapper-vtr .tabs {
 	position: relative;
 	margin-top: 0;
+	padding-bottom: 100px;
 }
 .wrapper-vtr .tabs .tabs_controls {
 	position: absolute;
