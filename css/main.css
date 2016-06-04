@@ -415,6 +415,7 @@ header .wrapper_header .header-right .header_navbar-right ul li a:hover {
 	height: 100%;
 	margin: 0 auto;
 	z-index: 10;
+	overflow-x: hidden;
 }
 .wrapper-vtr .title {
 	position: relative;
